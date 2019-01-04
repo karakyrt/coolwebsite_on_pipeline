@@ -11,5 +11,8 @@ pipeline {
                 sh "cp -f index.html /var/www/html/index.html"
             }
         }
+        stage("Test"){
+            steps{
+                sh "echo Test"
     }
 }
